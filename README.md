@@ -44,7 +44,7 @@ output voltage (5 V) the warm start is worse than random starts; a fallback rule
    For SKY130 also run `python make_sky130_trim.py` once (builds a 5-V-device-only model library, faster to load).
 3. The code expects to live in `~/ldo_project/optimizer`:
    ```bash
-   git clone https://github.com/<user>/<repo>.git ~/ldo_project/optimizer
+   git clone https://github.com/RajmohanSriram/ldo-warmstart-bo.git ~/ldo_project/optimizer
    cd ~/ldo_project/optimizer
    python3 -m venv venv && ./venv/bin/pip install -r requirements.txt
    ```
