@@ -1,0 +1,49 @@
+{
+ "design": "20261103_164611_sky130_3.3V_warm",
+ "source": "runs_sky130_compare/warm_new/20261103_164611_sky130_3.3V_warm/result.json",
+ "pdk": "sky130",
+ "vout": 3.3,
+ "cout_uF": 4.0,
+ "temperature": {
+  "-40.0": {
+   "all_pass": true,
+   "failing": [],
+   "worst_psrr": 40.61786,
+   "worst_pm": 45.24860000000001
+  },
+  "27.0": {
+   "all_pass": true,
+   "failing": [],
+   "worst_psrr": 40.24123,
+   "worst_pm": 49.58179999999999
+  },
+  "125.0": {
+   "all_pass": false,
+   "failing": [
+    "psrr"
+   ],
+   "worst_psrr": 39.29619,
+   "worst_pm": 53.351200000000006
+  }
+ },
+ "mc": {
+  "samples": 200,
+  "simulated": 200,
+  "passing": 196,
+  "sim_failed": 0,
+  "meas_failed": 0,
+  "mismatch_only": "mc_mm_switch=1, tt 27 C",
+  "yield_pct": 98.0,
+  "lines": [
+   ".param mc_mm_switch=1",
+   ".option seed={SEED}"
+  ],
+  "vout_mean": 3.299925225,
+  "vout_sigma_mV": 7.1953722755931935,
+  "psrr_mean": 44.66940995,
+  "psrr_sigma": 0.2217758288125592,
+  "fail_counts": {
+   "iq_uA": 4
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "pdk": "gf180",
+ "vout": 5.0,
+ "cout_uF": 4.0,
+ "psrr_min_dB": 40.0,
+ "line_pct_per_V": 1.0,
+ "vout_tol_pct": 1.5,
+ "pm_floor_deg": 45.0,
+ "dropout": 0.3,
+ "vin_over": 0.4,
+ "seed": 1793695607,
+ "warm": "mlp"
+}

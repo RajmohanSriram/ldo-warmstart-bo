@@ -1,0 +1,45 @@
+{
+ "val_near_dup_dropped": 0,
+ "val_r2": {
+  "line": 0.9963,
+  "load": 0.9927,
+  "iq": 0.9989,
+  "err": 0.9949,
+  "pm": 0.9973,
+  "psrr": 0.992,
+  "minsat": 0.9898,
+  "ov": null
+ },
+ "n_val": 1064,
+ "val_split": "grouped by run folder / dataset source",
+ "val_pm_ok_acc": 0.9953,
+ "val_pm_ok_frac_measurable": 0.8506,
+ "val_pm_ok_auc": 0.9994,
+ "n_train": 9387,
+ "epochs": 213,
+ "trained_at": "2026-11-25 16:05:05",
+ "pdk": "gf180",
+ "roots": [
+  "runs"
+ ],
+ "n_runs": 38,
+ "dataset_files": [],
+ "data_hygiene": {
+  "runs_without_spec": 10,
+  "pm_masked": 1561,
+  "failed_sims_excluded": 232,
+  "psrr_masked": 28
+ },
+ "coverage": {
+  "3.3V_4uF": 6448,
+  "3.3V_10uF": 348,
+  "5V_4uF": 3299,
+  "5V_10uF": 356
+ },
+ "excluded": [
+  [
+   3.3,
+   6.8
+  ]
+ ]
+}

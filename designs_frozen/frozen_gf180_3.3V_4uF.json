@@ -1,0 +1,25 @@
+{
+ "pdk": "gf180",
+ "vout": 3.3,
+ "R1": 211073.38002815796,
+ "n_pass": 112,
+ "sizes": {
+  "Lmirror": 1.0,
+  "Lcas": 1.0,
+  "Ltail": 1.0,
+  "Lbias": 1.0,
+  "Lcs": 1.0,
+  "Lfol": 0.5,
+  "Wcas": 8,
+  "Wbias": 8,
+  "Wbn": 8,
+  "Wcs": 8,
+  "Win": 48.6,
+  "Lin": 1.91,
+  "Wtail": 22.0,
+  "Wfol": 43.4,
+  "Wbn2": 4.39,
+  "Wmirror": 50.0,
+  "Wvb": 2.24
+ }
+}

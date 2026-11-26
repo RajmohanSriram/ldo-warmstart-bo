@@ -1,0 +1,58 @@
+{
+ "val_near_dup_dropped": 389,
+ "val_r2": {
+  "line": 0.0209,
+  "load": -0.3719,
+  "iq": 0.7629,
+  "err": -0.0347,
+  "pm": 0.5858,
+  "psrr": -0.3055,
+  "minsat": -0.0005,
+  "ov": null
+ },
+ "n_val": 1697,
+ "val_split": "grouped by run folder / dataset source",
+ "val_pm_ok_acc": 0.7814,
+ "val_pm_ok_frac_measurable": 0.6341,
+ "val_pm_ok_auc": 0.8501,
+ "n_train": 18771,
+ "epochs": 31,
+ "trained_at": "2026-11-03 16:05:20",
+ "pdk": "sky130",
+ "roots": [
+  "runs"
+ ],
+ "n_runs": 14,
+ "dataset_files": [
+  "/home/rajmohan_sriram/ldo_project/optimizer/dataset/data_sky130_3.3V.jsonl"
+ ],
+ "data_hygiene": {
+  "runs_without_spec": 10,
+  "pm_masked": 1067,
+  "failed_sims_excluded": 31,
+  "psrr_masked": 12,
+  "dataset_pm_masked": 4605,
+  "dataset_failed_excluded": 9,
+  "train_rows_near_test_dropped": 0
+ },
+ "coverage": {
+  "3.3V_4uF": 20497,
+  "3.3V_10uF": 360
+ },
+ "excluded": [],
+ "test_pm_ok_acc": 0.9173,
+ "test_pm_ok_frac_measurable": 0.6053,
+ "test_pm_ok_auc": 0.959,
+ "test_r2": {
+  "line": 0.8686,
+  "load": 0.8772,
+  "iq": 0.8891,
+  "err": 0.8265,
+  "pm": 0.8022,
+  "psrr": 0.741,
+  "minsat": 0.05,
+  "ov": null
+ },
+ "n_test": 798,
+ "test_set": "dataset split=='test' rows (never used for training or early stopping)"
+}

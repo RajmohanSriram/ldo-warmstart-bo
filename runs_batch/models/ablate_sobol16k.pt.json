@@ -1,0 +1,40 @@
+{
+ "val_near_dup_dropped": 0,
+ "val_r2": {
+  "line": 0.9937,
+  "load": 0.9958,
+  "iq": 0.9985,
+  "err": 0.9969,
+  "pm": 0.9978,
+  "psrr": 0.9944,
+  "minsat": 0.994,
+  "ov": null
+ },
+ "n_val": 1600,
+ "val_split": "grouped by run folder / dataset source",
+ "val_pm_ok_acc": 0.995,
+ "val_pm_ok_frac_measurable": 0.6975,
+ "val_pm_ok_auc": 0.9998,
+ "n_train": 14400,
+ "epochs": 146,
+ "trained_at": "2026-11-25 15:09:45",
+ "pdk": "gf180",
+ "ablation": "bo_warm_sobol16k",
+ "n_rows": 16000,
+ "sources": "dataset sobol rows only",
+ "coverage": {
+  "3.3V": 7948,
+  "5V": 8052
+ },
+ "test_r2": {
+  "line": 0.9921,
+  "load": 0.9938,
+  "iq": 0.9984,
+  "err": 0.9954,
+  "pm": 0.9977,
+  "psrr": 0.9917,
+  "minsat": 0.9939,
+  "ov": null
+ },
+ "n_test": 1997
+}

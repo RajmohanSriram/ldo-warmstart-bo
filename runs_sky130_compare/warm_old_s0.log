@@ -1,0 +1,66 @@
+LDO flow: sky130 VOUT 3.3 V, VIN 3.6-3.7 V, 100 mA, Cout 4.0 uF, PSRR>=40.0 dB, seed 7000, 14 workers
+run folder: /home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_old/20261103_161901_sky130_3.3V_warm
+WARM START: MLP surrogate /home/rajmohan_sriram/ldo_project/optimizer/backup_pre_mlp_20261103/models_sky130_pre_dataset/sky130.pt (trained on 3646 evaluations); 8 proposals per slice, online retrain every 40 evaluations
+stage 1 slice 1/3: pass units 150-383, 83 calls
+WARM START: 8 MLP proposals in 0.2s, predicted margins -3.45, -3.76, -3.89, -3.89, -3.97, -3.99, -4.12, -4.12
+[stage 1] 8/250  best=671.6875  screened-passing=0  6s
+[stage 1] 22/250  best=603.1471  screened-passing=0  15s
+[stage 1] 36/250  best=584.0905  screened-passing=0  25s
+[stage 1] 50/250  best=471.4925  screened-passing=0  36s
+ONLINE: MLP retrained on 50 run evaluations (0.7s), proposing 1 point(s)
+[stage 1] 64/250  best=454.9872  screened-passing=0  49s
+[stage 1] 78/250  best=454.2744  screened-passing=0  63s
+[stage 1] 83/250  best=454.2744  screened-passing=0  70s
+stage 1 slice 2/3: pass units 383-979, 83 calls
+WARM START: 8 MLP proposals in 0.2s, predicted margins -0.14, -0.16, -0.17, -0.17, -0.17, -0.18, -0.18, -0.18
+[stage 1] 91/250  best=0.8394  screened-passing=0  75s
+ONLINE: MLP retrained on 91 run evaluations (0.4s), proposing 1 point(s)
+[stage 1] 105/250  best=0.8394  screened-passing=0  85s
+[stage 1] 119/250  best=0.8394  screened-passing=0  94s
+[stage 1] 133/250  best=0.8394  screened-passing=0  105s
+ONLINE: MLP retrained on 133 run evaluations (0.5s), proposing 1 point(s)
+[stage 1] 147/250  best=0.8394  screened-passing=0  119s
+[stage 1] 161/250  best=0.8394  screened-passing=0  132s
+[stage 1] 166/250  best=0.8394  screened-passing=0  140s
+stage 1 slice 3/3: pass units 979-2500, 83 calls
+WARM START: 8 MLP proposals in 0.2s, predicted margins -0.03, -0.03, -0.04, -0.04, -0.04, -0.04, -0.04, -0.04
+[stage 1] 174/250  best=0.8394  screened-passing=0  145s
+ONLINE: MLP retrained on 174 run evaluations (0.5s), proposing 1 point(s)
+[stage 1] 188/250  best=0.8394  screened-passing=0  155s
+[stage 1] 202/250  best=0.8394  screened-passing=0  164s
+[stage 1] 216/250  best=0.8394  screened-passing=0  175s
+ONLINE: MLP retrained on 216 run evaluations (0.5s), proposing 1 point(s)
+[stage 1] 230/250  best=0.8394  screened-passing=0  187s
+[stage 1] 244/250  best=0.8394  screened-passing=0  201s
+[stage 1] 249/250  best=0.8394  screened-passing=0  208s
+[stage 2] 257/369  best=0.8394  screened-passing=0  214s
+ONLINE: MLP retrained on 257 run evaluations (0.5s), proposing 1 point(s)
+[stage 2] 271/369  best=0.8394  screened-passing=0  223s
+[stage 2] 285/369  best=0.8394  screened-passing=0  232s
+[stage 2] 299/369  best=0.8246  screened-passing=0  242s
+ONLINE: MLP retrained on 299 run evaluations (0.5s), proposing 1 point(s)
+[stage 2] 313/369  best=0.8246  screened-passing=0  255s
+[stage 2] 327/369  best=0.8246  screened-passing=0  269s
+[stage 2] 341/369  best=0.8246  screened-passing=0  284s
+ONLINE: MLP retrained on 341 run evaluations (0.4s), proposing 1 point(s)
+[stage 2] 355/369  best=0.8246  screened-passing=0  300s
+[stage 2] 369/369  best=0.5762  screened-passing=0  318s
+[stage 3] 369/369  best=0.5762  screened-passing=0  318s
+verified candidate: all_ok=False  worst margin=-0.103  area=3769
+verified candidate: all_ok=False  worst margin=-0.089  area=5710
+verified candidate: all_ok=False  worst margin=-0.122  area=4969
+verified candidate: all_ok=False  worst margin=-0.2  area=5025
+verified candidate: all_ok=False  worst margin=-0.169  area=7138
+
+STATUS: no_design_met_spec
+No design met every spec. Closest design shown with its failing items.
+n_pass=708 (10x0.5 um), R1=210.79k, R2=120k, area=3769 um2, min Cout=4.0 uF
+  FAIL PSRR at 10 kHz (dB): 35.866 (limit >= 40.0)
+  OK   Phase margin at spec Cout (deg): 45.92 (limit >= 45.0)
+  OK   Line regulation (mV): 2.916 (limit <= 3.3)
+  OK   Load regulation (mV): 6.56 (limit <= 33.0)
+  OK   Quiescent current (uA): 85.7 (limit <= 100.0)
+  OK   VOUT accuracy (mV): 5.637 (limit <= 49.5)
+  OK   Saturation margin (mV): 63.789 (limit >= 50.0)
+  OK   Max device voltage (V): 2.989 (limit <= 4.8)
+RESULT_JSON: /home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_old/20261103_161901_sky130_3.3V_warm/result.json

@@ -1,0 +1,341 @@
+{
+ "status": "met_spec",
+ "message": "Design verified against all specs at all five process corners (27 C only).",
+ "spec": {
+  "pdk": "gf180",
+  "vout": 5.0,
+  "vin_min": 5.3,
+  "vin_max": 5.4,
+  "iout_A": 0.1,
+  "cout_uF": 4.0,
+  "psrr_min_dB": 40.0,
+  "line_pct_per_V": 1.0,
+  "vout_tol_pct": 1.5,
+  "pm_floor_deg": 45.0,
+  "temperature": "27 C only"
+ },
+ "seed": 1793101240,
+ "workers": 8,
+ "evaluations": 369,
+ "runtime_s": 338,
+ "run_dir": "/home/rajmohan_sriram/ldo_project/optimizer/runs/20261027_114040_gf180_5V",
+ "design": {
+  "x": [
+   44.84319767439477,
+   1.1691822883507481,
+   4.1464953150054,
+   129.0,
+   50.68699062413599,
+   7.5934212561933165,
+   57.49566392376303,
+   4.09362255177458
+  ],
+  "sizes": {
+   "Lmirror": 1.0,
+   "Lcas": 1.0,
+   "Ltail": 1.0,
+   "Lbias": 1.0,
+   "Lcs": 1.0,
+   "Lfol": 0.5,
+   "Wcas": 8.0,
+   "Wbias": 8.0,
+   "Wbn": 8.0,
+   "Wcs": 8.0,
+   "Win": 44.8432,
+   "Lin": 1.1692,
+   "Wtail": 4.1465,
+   "Wfol": 50.687,
+   "Wbn2": 7.5934,
+   "Wmirror": 57.4957,
+   "Wvb": 4.0936
+  },
+  "n_pass": 129,
+  "pass_unit_um": [
+   100,
+   0.5
+  ],
+  "R1_ohm": 382462.7,
+  "R2_ohm": 119999.99999999999,
+  "checks": [
+   {
+    "name": "PSRR at 10 kHz (dB)",
+    "value": 44.62,
+    "op": ">=",
+    "limit": 40.0,
+    "ok": true
+   },
+   {
+    "name": "Phase margin at spec Cout (deg)",
+    "value": 50.725,
+    "op": ">=",
+    "limit": 45.0,
+    "ok": true
+   },
+   {
+    "name": "Line regulation (mV)",
+    "value": 1.187,
+    "op": "<=",
+    "limit": 5.0,
+    "ok": true
+   },
+   {
+    "name": "Load regulation (mV)",
+    "value": 12.095,
+    "op": "<=",
+    "limit": 50.0,
+    "ok": true
+   },
+   {
+    "name": "Quiescent current (uA)",
+    "value": 97.1,
+    "op": "<=",
+    "limit": 100.0,
+    "ok": true
+   },
+   {
+    "name": "VOUT accuracy (mV)",
+    "value": 13.512,
+    "op": "<=",
+    "limit": 75.0,
+    "ok": true
+   },
+   {
+    "name": "Saturation margin (mV)",
+    "value": 76.111,
+    "op": ">=",
+    "limit": 50.0,
+    "ok": true
+   },
+   {
+    "name": "Max device voltage (V)",
+    "value": 4.796,
+    "op": "<=",
+    "limit": 5.8,
+    "ok": true
+   }
+  ],
+  "all_ok": true,
+  "worst_margin": 0.029,
+  "min_cout_uF": 4.0,
+  "area_um2": 6753,
+  "corners": [
+   {
+    "corner": "tt",
+    "vout_full": 4.999895,
+    "vout_light": 5.010754,
+    "vout_vinmin": 4.999161,
+    "load_mV": 10.858999999999952,
+    "line_mV": 0.7340000000004565,
+    "iq_uA": 94.99999999999787,
+    "min_sat_mV": 179.40263999999988,
+    "max_dev_V": 4.661726,
+    "vout_err_mV": 10.754000000000374
+   },
+   {
+    "corner": "ss",
+    "vout_full": 4.996321,
+    "vout_light": 5.008416,
+    "vout_vinmin": 4.995134,
+    "load_mV": 12.095000000000411,
+    "line_mV": 1.186999999999827,
+    "iq_uA": 92.7999999999901,
+    "min_sat_mV": 148.5925,
+    "max_dev_V": 4.527021,
+    "vout_err_mV": 8.416000000000423
+   },
+   {
+    "corner": "ff",
+    "vout_full": 5.003772,
+    "vout_light": 5.013512,
+    "vout_vinmin": 5.003358,
+    "load_mV": 9.740000000000748,
+    "line_mV": 0.4139999999992483,
+    "iq_uA": 97.09999999998887,
+    "min_sat_mV": 76.11050000000019,
+    "max_dev_V": 4.795688,
+    "vout_err_mV": 13.512000000000413
+   },
+   {
+    "corner": "sf",
+    "vout_full": 5.002176,
+    "vout_light": 5.012155,
+    "vout_vinmin": 5.001848,
+    "load_mV": 9.978999999999516,
+    "line_mV": 0.3280000000005501,
+    "iq_uA": 92.99999999999586,
+    "min_sat_mV": 123.52720000000006,
+    "max_dev_V": 4.750879,
+    "vout_err_mV": 12.154999999999916
+   },
+   {
+    "corner": "fs",
+    "vout_full": 4.997527,
+    "vout_light": 5.009412,
+    "vout_vinmin": 4.996345,
+    "load_mV": 11.885000000000367,
+    "line_mV": 1.1820000000000164,
+    "iq_uA": 96.69999999999123,
+    "min_sat_mV": 191.34765999999988,
+    "max_dev_V": 4.571296,
+    "vout_err_mV": 9.412000000000198
+   }
+  ],
+  "phase_margin_by_cout": {
+   "2.2": {
+    "tt": {
+     "pm": 31.166200000000003,
+     "at_load_mA": 100.0
+    },
+    "ss": {
+     "pm": 31.5796,
+     "at_load_mA": 100.0
+    },
+    "ff": {
+     "pm": 29.532100000000014,
+     "at_load_mA": 100.0
+    },
+    "sf": {
+     "pm": 26.2945,
+     "at_load_mA": 100.0
+    },
+    "fs": {
+     "pm": 36.073200000000014,
+     "at_load_mA": 100.0
+    }
+   },
+   "3.0": {
+    "tt": {
+     "pm": 44.842600000000004,
+     "at_load_mA": 100.0
+    },
+    "ss": {
+     "pm": 45.72720000000001,
+     "at_load_mA": 100.0
+    },
+    "ff": {
+     "pm": 43.064899999999994,
+     "at_load_mA": 100.0
+    },
+    "sf": {
+     "pm": 39.40190000000001,
+     "at_load_mA": 100.0
+    },
+    "fs": {
+     "pm": 50.11609999999999,
+     "at_load_mA": 100.0
+    }
+   },
+   "4.0": {
+    "tt": {
+     "pm": 56.0342,
+     "at_load_mA": 100.0
+    },
+    "ss": {
+     "pm": 57.084,
+     "at_load_mA": 100.0
+    },
+    "ff": {
+     "pm": 54.377700000000004,
+     "at_load_mA": 100.0
+    },
+    "sf": {
+     "pm": 50.7252,
+     "at_load_mA": 100.0
+    },
+    "fs": {
+     "pm": 60.885000000000005,
+     "at_load_mA": 100.0
+    }
+   },
+   "6.8": {
+    "tt": {
+     "pm": 71.4826,
+     "at_load_mA": 100.0
+    },
+    "ss": {
+     "pm": 72.1595,
+     "at_load_mA": 100.0
+    },
+    "ff": {
+     "pm": 70.4514,
+     "at_load_mA": 100.0
+    },
+    "sf": {
+     "pm": 67.5837,
+     "at_load_mA": 100.0
+    },
+    "fs": {
+     "pm": 74.7323,
+     "at_load_mA": 100.0
+    }
+   },
+   "10.0": {
+    "tt": {
+     "pm": 78.9113,
+     "at_load_mA": 100.0
+    },
+    "ss": {
+     "pm": 79.2246,
+     "at_load_mA": 100.0
+    },
+    "ff": {
+     "pm": 78.3703,
+     "at_load_mA": 100.0
+    },
+    "sf": {
+     "pm": 76.2137,
+     "at_load_mA": 100.0
+    },
+    "fs": {
+     "pm": 81.03923,
+     "at_load_mA": 100.0
+    }
+   }
+  },
+  "psrr_dB": {
+   "tt": {
+    "100mA": 52.75962,
+    "2mA": 50.98032
+   },
+   "ss": {
+    "100mA": 45.20775,
+    "2mA": 51.17531
+   },
+   "ff": {
+    "100mA": 70.31276,
+    "2mA": 51.23138
+   },
+   "sf": {
+    "100mA": 60.50577,
+    "2mA": 47.70274
+   },
+   "fs": {
+    "100mA": 44.61989,
+    "2mA": 56.24009
+   }
+  }
+ },
+ "failing": [],
+ "other_verified": [
+  {
+   "all_ok": false,
+   "worst_margin": -0.008,
+   "area_um2": 4545
+  },
+  {
+   "all_ok": true,
+   "worst_margin": 0.001,
+   "area_um2": 6845
+  },
+  {
+   "all_ok": true,
+   "worst_margin": 0.006,
+   "area_um2": 7048
+  },
+  {
+   "all_ok": true,
+   "worst_margin": 0.005,
+   "area_um2": 7145
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "spec": "gf180_5V_4uF",
+ "method": "bo_warm",
+ "seed": 0,
+ "n_evals": 250,
+ "first_pass": 177,
+ "n_screen": 3,
+ "best_total": 0.4107697854521475,
+ "best_at": {
+  "25": 1.587086438075794,
+  "50": 0.6493654643314858,
+  "100": 0.5257432173108478,
+  "150": 0.4107697854521475,
+  "200": 0.4107697854521475,
+  "250": 0.4107697854521475,
+  "400": 0.4107697854521475
+ },
+ "runtime_s": 593,
+ "warm": {
+  "mode": "mlp",
+  "status": "mlp",
+  "proposals": 13,
+  "online_retrains": 5,
+  "proposals_simulated": 13,
+  "proposals_passing_screen": 1
+ }
+}

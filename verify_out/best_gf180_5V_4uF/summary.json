@@ -1,0 +1,50 @@
+{
+ "design": "best_gf180_5V_4uF",
+ "source": "best_gf180_5V_4uF.json",
+ "pdk": "gf180",
+ "vout": 5.0,
+ "cout_uF": 4.0,
+ "temperature": {
+  "-40.0": {
+   "all_pass": true,
+   "failing": [],
+   "worst_psrr": 44.88642,
+   "worst_pm": 61.7222
+  },
+  "27.0": {
+   "all_pass": false,
+   "failing": [
+    "psrr"
+   ],
+   "worst_psrr": 38.3803,
+   "worst_pm": 65.2682
+  },
+  "125.0": {
+   "all_pass": false,
+   "failing": [
+    "min_sat_mV",
+    "psrr"
+   ],
+   "worst_psrr": 32.49342,
+   "worst_pm": 68.8286
+  }
+ },
+ "mc": {
+  "samples": 200,
+  "simulated": 200,
+  "passing": 200,
+  "sim_failed": 0,
+  "meas_failed": 0,
+  "mismatch_only": "sw_stat_mismatch=1, sw_stat_global=0, tt 27 C",
+  "yield_pct": 100.0,
+  "lines": [
+   ".param sw_stat_mismatch=1",
+   ".option seed={SEED}"
+  ],
+  "vout_mean": 4.999669625,
+  "vout_sigma_mV": 6.492588043636767,
+  "psrr_mean": 43.10123715,
+  "psrr_sigma": 0.7794772584760749,
+  "fail_counts": {}
+ }
+}

@@ -1,0 +1,51 @@
+LDO flow: sky130 VOUT 3.3 V, VIN 3.6-3.7 V, 100 mA, Cout 4.0 uF, PSRR>=40.0 dB, seed 7000, 14 workers
+run folder: /home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/cold/20261103_160746_sky130_3.3V
+stage 1 slice 1/3: pass units 150-383, 83 calls
+[stage 1] 14/250  best=4618.5111  screened-passing=0  8s
+[stage 1] 28/250  best=555.9528  screened-passing=0  16s
+[stage 1] 42/250  best=555.9528  screened-passing=0  25s
+[stage 1] 56/250  best=555.9528  screened-passing=0  37s
+[stage 1] 70/250  best=555.9528  screened-passing=0  51s
+[stage 1] 83/250  best=555.9528  screened-passing=0  66s
+stage 1 slice 2/3: pass units 383-979, 83 calls
+[stage 1] 97/250  best=13.1847  screened-passing=0  75s
+[stage 1] 111/250  best=1.9430  screened-passing=0  84s
+[stage 1] 125/250  best=0.9596  screened-passing=0  95s
+[stage 1] 139/250  best=0.9596  screened-passing=0  109s
+[stage 1] 153/250  best=0.9596  screened-passing=0  124s
+[stage 1] 166/250  best=0.9596  screened-passing=0  138s
+stage 1 slice 3/3: pass units 979-2500, 83 calls
+[stage 1] 180/250  best=0.9596  screened-passing=0  146s
+[stage 1] 194/250  best=0.9596  screened-passing=0  156s
+[stage 1] 208/250  best=0.8484  screened-passing=0  167s
+[stage 1] 222/250  best=0.8484  screened-passing=0  180s
+[stage 1] 236/250  best=0.8484  screened-passing=0  195s
+[stage 1] 249/250  best=0.8484  screened-passing=0  209s
+[stage 2] 257/369  best=0.8484  screened-passing=0  214s
+[stage 2] 271/369  best=0.8484  screened-passing=0  224s
+[stage 2] 285/369  best=0.8484  screened-passing=0  234s
+[stage 2] 299/369  best=0.7754  screened-passing=0  247s
+[stage 2] 313/369  best=0.7754  screened-passing=0  262s
+[stage 2] 327/369  best=0.7754  screened-passing=0  277s
+[stage 2] 341/369  best=0.7754  screened-passing=0  293s
+[stage 2] 355/369  best=0.7286  screened-passing=0  311s
+[stage 2] 369/369  best=0.7286  screened-passing=0  332s
+[stage 3] 369/369  best=0.7286  screened-passing=0  332s
+verified candidate: all_ok=False  worst margin=-0.194  area=3951
+verified candidate: all_ok=False  worst margin=-0.108  area=5466
+verified candidate: all_ok=False  worst margin=-0.26  area=4592
+verified candidate: all_ok=False  worst margin=-0.156  area=5680
+verified candidate: all_ok=False  worst margin=-0.124  area=5325
+
+STATUS: no_design_met_spec
+No design met every spec. Closest design shown with its failing items.
+n_pass=1054 (10x0.5 um), R1=211.46k, R2=120k, area=5466 um2, min Cout=3.0 uF
+  FAIL PSRR at 10 kHz (dB): 35.7 (limit >= 40.0)
+  OK   Phase margin at spec Cout (deg): 58.672 (limit >= 45.0)
+  OK   Line regulation (mV): 2.363 (limit <= 3.3)
+  OK   Load regulation (mV): 10.025 (limit <= 33.0)
+  OK   Quiescent current (uA): 64.8 (limit <= 100.0)
+  OK   VOUT accuracy (mV): 9.51 (limit <= 49.5)
+  OK   Saturation margin (mV): 66.797 (limit >= 50.0)
+  OK   Max device voltage (V): 3.01 (limit <= 4.8)
+RESULT_JSON: /home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/cold/20261103_160746_sky130_3.3V/result.json

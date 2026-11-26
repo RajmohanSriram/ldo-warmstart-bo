@@ -1,0 +1,368 @@
+=== 2026-11-25 11:55:47 queue start
+134 pending jobs in parts ['core', 'extrap', 'lookup', 'ablate']; 4 at a time x 3 workers
+[11:57] OK   gf180_3.3V_4uF random s3 | done: first pass @None, 0 passing, 121 s | 1 done, 133 left, 0.0 h elapsed
+[11:57] OK   gf180_3.3V_4uF de s3 | done: first pass @None, 0 passing, 123 s | 2 done, 132 left, 0.0 h elapsed
+[11:59] OK   gf180_5V_4uF de s3 | done: first pass @34, 36 passing, 108 s | 3 done, 131 left, 0.1 h elapsed
+[11:59] OK   gf180_5V_4uF random s3 | done: first pass @98, 4 passing, 111 s | 4 done, 130 left, 0.1 h elapsed
+[12:05] OK   gf180_3.3V_4uF bo_warm s3 | done: first pass @2, 16 passing, 603 s | 5 done, 129 left, 0.2 h elapsed
+[12:06] OK   gf180_3.3V_4uF bo_cold s3 | done: first pass @16, 2 passing, 626 s | 6 done, 128 left, 0.2 h elapsed
+[12:08] OK   gf180_3.3V_6.8uF random s3 | done: first pass @98, 3 passing, 123 s | 7 done, 127 left, 0.2 h elapsed
+[12:08] OK   gf180_3.3V_6.8uF de s3 | done: first pass @87, 12 passing, 125 s | 8 done, 126 left, 0.2 h elapsed
+[12:09] OK   gf180_5V_4uF bo_cold s3 | done: first pass @1, 3 passing, 580 s | 9 done, 125 left, 0.2 h elapsed
+[12:09] OK   gf180_5V_4uF bo_warm s3 | done: first pass @14, 15 passing, 585 s | 10 done, 124 left, 0.2 h elapsed
+[12:11] OK   gf180_3.3V_4uF random s4 | done: first pass @None, 0 passing, 122 s | 11 done, 123 left, 0.3 h elapsed
+[12:11] OK   gf180_3.3V_4uF de s4 | done: first pass @None, 0 passing, 128 s | 12 done, 122 left, 0.3 h elapsed
+[12:18] OK   gf180_3.3V_6.8uF bo_cold s3 | done: first pass @16, 8 passing, 596 s | 13 done, 121 left, 0.4 h elapsed
+[12:19] OK   gf180_3.3V_6.8uF bo_warm s3 | done: first pass @1, 11 passing, 640 s | 14 done, 120 left, 0.4 h elapsed
+[12:20] OK   gf180_5V_4uF random s4 | done: first pass @62, 6 passing, 123 s | 15 done, 119 left, 0.4 h elapsed
+[12:21] OK   gf180_5V_4uF de s4 | done: first pass @34, 25 passing, 128 s | 16 done, 118 left, 0.4 h elapsed
+[12:21] OK   gf180_3.3V_4uF bo_cold s4 | done: first pass @None, 0 passing, 599 s | 17 done, 117 left, 0.4 h elapsed
+[12:22] OK   gf180_3.3V_4uF bo_warm s4 | done: first pass @1, 10 passing, 635 s | 18 done, 116 left, 0.4 h elapsed
+[12:24] OK   gf180_3.3V_6.8uF random s4 | done: first pass @40, 1 passing, 150 s | 19 done, 115 left, 0.5 h elapsed
+[12:24] OK   gf180_3.3V_6.8uF de s4 | done: first pass @139, 5 passing, 148 s | 20 done, 114 left, 0.5 h elapsed
+[12:30] OK   gf180_5V_4uF bo_cold s4 | done: first pass @40, 5 passing, 626 s | 21 done, 113 left, 0.6 h elapsed
+[12:31] OK   gf180_5V_4uF bo_warm s4 | done: first pass @55, 16 passing, 630 s | 22 done, 112 left, 0.6 h elapsed
+[12:32] OK   gf180_3.3V_4uF random s5 | done: first pass @None, 0 passing, 118 s | 23 done, 111 left, 0.6 h elapsed
+[12:34] OK   gf180_3.3V_4uF de s5 | done: first pass @193, 4 passing, 125 s | 24 done, 110 left, 0.6 h elapsed
+[12:34] OK   gf180_3.3V_6.8uF bo_cold s4 | done: first pass @21, 13 passing, 624 s | 25 done, 109 left, 0.6 h elapsed
+[12:35] OK   gf180_3.3V_6.8uF bo_warm s4 | done: first pass @1, 14 passing, 640 s | 26 done, 108 left, 0.7 h elapsed
+[12:36] OK   gf180_5V_4uF random s5 | done: first pass @54, 9 passing, 107 s | 27 done, 107 left, 0.7 h elapsed
+[12:37] OK   gf180_5V_4uF de s5 | done: first pass @14, 26 passing, 107 s | 28 done, 106 left, 0.7 h elapsed
+[12:42] OK   gf180_3.3V_4uF bo_cold s5 | done: first pass @None, 0 passing, 585 s | 29 done, 105 left, 0.8 h elapsed
+[12:44] OK   gf180_3.3V_4uF bo_warm s5 | done: first pass @1, 11 passing, 608 s | 30 done, 104 left, 0.8 h elapsed
+[12:44] OK   gf180_3.3V_6.8uF random s5 | done: first pass @33, 4 passing, 122 s | 31 done, 103 left, 0.8 h elapsed
+[12:46] OK   gf180_5V_4uF bo_cold s5 | done: first pass @6, 5 passing, 590 s | 32 done, 102 left, 0.8 h elapsed
+[12:46] OK   gf180_3.3V_6.8uF de s5 | done: first pass @61, 14 passing, 129 s | 33 done, 101 left, 0.8 h elapsed
+[12:47] OK   gf180_5V_4uF bo_warm s5 | done: first pass @32, 10 passing, 573 s | 34 done, 100 left, 0.9 h elapsed
+[12:48] OK   gf180_3.3V_4uF random s6 | done: first pass @None, 0 passing, 127 s | 35 done, 99 left, 0.9 h elapsed
+[12:49] OK   gf180_3.3V_4uF de s6 | done: first pass @None, 0 passing, 129 s | 36 done, 98 left, 0.9 h elapsed
+[12:55] OK   gf180_3.3V_6.8uF bo_cold s5 | done: first pass @70, 1 passing, 648 s | 37 done, 97 left, 1.0 h elapsed
+[12:56] OK   gf180_3.3V_6.8uF bo_warm s5 | done: first pass @1, 23 passing, 580 s | 38 done, 96 left, 1.0 h elapsed
+[12:57] OK   gf180_5V_4uF random s6 | done: first pass @29, 5 passing, 119 s | 39 done, 95 left, 1.0 h elapsed
+[12:58] OK   gf180_5V_4uF de s6 | done: first pass @8, 16 passing, 117 s | 40 done, 94 left, 1.0 h elapsed
+[12:59] OK   gf180_3.3V_4uF bo_warm s6 | done: first pass @1, 7 passing, 627 s | 41 done, 93 left, 1.1 h elapsed
+[13:00] OK   gf180_3.3V_4uF bo_cold s6 | done: first pass @None, 0 passing, 698 s | 42 done, 92 left, 1.1 h elapsed
+[13:02] OK   gf180_3.3V_6.8uF random s6 | done: first pass @65, 3 passing, 133 s | 43 done, 91 left, 1.1 h elapsed
+[13:02] OK   gf180_3.3V_6.8uF de s6 | done: first pass @136, 6 passing, 135 s | 44 done, 90 left, 1.1 h elapsed
+[13:07] OK   gf180_5V_4uF bo_cold s6 | done: first pass @45, 2 passing, 585 s | 45 done, 89 left, 1.2 h elapsed
+[13:09] OK   gf180_3.3V_4uF random s7 | done: first pass @109, 1 passing, 118 s | 46 done, 88 left, 1.2 h elapsed
+[13:10] OK   gf180_5V_4uF bo_warm s6 | done: first pass @15, 13 passing, 728 s | 47 done, 87 left, 1.2 h elapsed
+[13:11] OK   gf180_3.3V_4uF de s7 | done: first pass @None, 0 passing, 123 s | 48 done, 86 left, 1.3 h elapsed
+[13:13] OK   gf180_3.3V_6.8uF bo_cold s6 | done: first pass @None, 0 passing, 670 s | 49 done, 85 left, 1.3 h elapsed
+[13:15] OK   gf180_5V_4uF random s7 | done: first pass @6, 11 passing, 103 s | 50 done, 84 left, 1.3 h elapsed
+[13:15] OK   gf180_3.3V_6.8uF bo_warm s6 | done: first pass @2, 14 passing, 758 s | 51 done, 83 left, 1.3 h elapsed
+[13:16] OK   gf180_5V_4uF de s7 | done: first pass @23, 21 passing, 102 s | 52 done, 82 left, 1.4 h elapsed
+[13:20] OK   gf180_3.3V_4uF bo_cold s7 | done: first pass @None, 0 passing, 632 s | 53 done, 81 left, 1.4 h elapsed
+[13:20] OK   gf180_3.3V_4uF bo_warm s7 | done: first pass @1, 7 passing, 577 s | 54 done, 80 left, 1.4 h elapsed
+[13:22] OK   gf180_3.3V_6.8uF random s7 | done: first pass @42, 4 passing, 121 s | 55 done, 79 left, 1.5 h elapsed
+[13:23] OK   gf180_3.3V_6.8uF de s7 | done: first pass @126, 7 passing, 123 s | 56 done, 78 left, 1.5 h elapsed
+[13:24] OK   gf180_5V_4uF bo_cold s7 | done: first pass @33, 7 passing, 552 s | 57 done, 77 left, 1.5 h elapsed
+[13:25] OK   gf180_5V_4uF bo_warm s7 | done: first pass @64, 22 passing, 518 s | 58 done, 76 left, 1.5 h elapsed
+[13:26] OK   gf180_3.3V_4uF random s8 | done: first pass @None, 0 passing, 119 s | 59 done, 75 left, 1.5 h elapsed
+[13:27] OK   gf180_3.3V_4uF de s8 | done: first pass @None, 0 passing, 123 s | 60 done, 74 left, 1.5 h elapsed
+[13:31] OK   gf180_3.3V_6.8uF bo_warm s7 | done: first pass @1, 51 passing, 531 s | 61 done, 73 left, 1.6 h elapsed
+[13:33] OK   gf180_3.3V_6.8uF bo_cold s7 | done: first pass @33, 2 passing, 612 s | 62 done, 72 left, 1.6 h elapsed
+[13:33] OK   gf180_5V_4uF random s8 | done: first pass @21, 6 passing, 104 s | 63 done, 71 left, 1.6 h elapsed
+[13:34] OK   gf180_5V_4uF de s8 | done: first pass @24, 18 passing, 104 s | 64 done, 70 left, 1.7 h elapsed
+[13:37] OK   gf180_3.3V_4uF bo_cold s8 | done: first pass @None, 0 passing, 629 s | 65 done, 69 left, 1.7 h elapsed
+[13:38] OK   gf180_3.3V_4uF bo_warm s8 | done: first pass @1, 13 passing, 633 s | 66 done, 68 left, 1.7 h elapsed
+[13:39] OK   gf180_3.3V_6.8uF random s8 | done: first pass @44, 5 passing, 117 s | 67 done, 67 left, 1.7 h elapsed
+[13:40] OK   gf180_3.3V_6.8uF de s8 | done: first pass @60, 7 passing, 123 s | 68 done, 66 left, 1.7 h elapsed
+[13:42] OK   gf180_5V_4uF bo_cold s8 | done: first pass @44, 3 passing, 554 s | 69 done, 65 left, 1.8 h elapsed
+[13:44] OK   gf180_3.3V_4uF random s9 | done: first pass @None, 0 passing, 113 s | 70 done, 64 left, 1.8 h elapsed
+[13:44] OK   gf180_5V_4uF bo_warm s8 | done: first pass @106, 5 passing, 594 s | 71 done, 63 left, 1.8 h elapsed
+[13:46] OK   gf180_3.3V_4uF de s9 | done: first pass @None, 0 passing, 115 s | 72 done, 62 left, 1.9 h elapsed
+[13:50] OK   gf180_3.3V_6.8uF bo_warm s8 | done: first pass @1, 22 passing, 579 s | 73 done, 61 left, 1.9 h elapsed
+[13:50] OK   gf180_3.3V_6.8uF bo_cold s8 | done: first pass @59, 1 passing, 666 s | 74 done, 60 left, 1.9 h elapsed
+[13:51] OK   gf180_5V_4uF random s9 | done: first pass @21, 9 passing, 108 s | 75 done, 59 left, 1.9 h elapsed
+[13:52] OK   gf180_5V_4uF de s9 | done: first pass @4, 24 passing, 107 s | 76 done, 58 left, 1.9 h elapsed
+[13:55] OK   gf180_3.3V_4uF bo_cold s9 | done: first pass @None, 0 passing, 610 s | 77 done, 57 left, 2.0 h elapsed
+[13:56] OK   gf180_3.3V_4uF bo_warm s9 | done: first pass @1, 11 passing, 572 s | 78 done, 56 left, 2.0 h elapsed
+[13:57] OK   gf180_3.3V_6.8uF random s9 | done: first pass @75, 3 passing, 115 s | 79 done, 55 left, 2.0 h elapsed
+[13:58] OK   gf180_3.3V_6.8uF de s9 | done: first pass @112, 2 passing, 120 s | 80 done, 54 left, 2.0 h elapsed
+[14:00] OK   gf180_5V_4uF bo_cold s9 | done: first pass @99, 2 passing, 538 s | 81 done, 53 left, 2.1 h elapsed
+[14:01] OK   gf180_5V_4uF bo_warm s9 | done: first pass @68, 7 passing, 550 s | 82 done, 52 left, 2.1 h elapsed
+[14:02] OK   gf180_3.3V_15uF random s0 | done: first pass @6, 11 passing, 121 s | 83 done, 51 left, 2.1 h elapsed
+[14:03] OK   gf180_3.3V_15uF de s0 | done: first pass @2, 97 passing, 127 s | 84 done, 50 left, 2.1 h elapsed
+--- training hold-out MLP holdout_3.3V_15uF.pt (no data at 3.3 V / 15 uF) ---
+training data: 11502 unique evaluations from 41 run folders + 62060 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=13442, failed_sims_excluded=264, pm_masked=1836, psrr_masked=29, runs_without_spec=10, train_rows_near_test_dropped=0
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.996  load=0.996  iq=0.999  err=0.998  pm=0.999  psrr=0.995  minsat=0.994  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9958, 'pm_ok_frac_measurable': 0.7298, 'pm_ok_auc': 0.9999}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  TEST R^2 on 1997 held-out dataset rows:  line=0.993  load=0.993  iq=0.999  err=0.995  pm=0.999  psrr=0.994  minsat=0.995  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.9945, 'pm_ok_frac_measurable': 0.685, 'pm_ok_auc': 0.9998}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_15uF.pt
+[14:06] OK   gf180_3.3V_6.8uF bo_cold s9 | done: first pass @44, 9 passing, 544 s | 85 done, 49 left, 2.2 h elapsed
+[14:08] OK   gf180_3.3V_15uF random s1 | done: first pass @77, 8 passing, 114 s | 86 done, 48 left, 2.2 h elapsed
+[14:08] OK   gf180_3.3V_6.8uF bo_warm s9 | done: first pass @1, 22 passing, 582 s | 87 done, 47 left, 2.2 h elapsed
+[14:10] OK   gf180_3.3V_15uF de s1 | done: first pass @37, 60 passing, 118 s | 88 done, 46 left, 2.2 h elapsed
+[14:13] OK   gf180_3.3V_15uF bo_cold s0 | done: first pass @8, 3 passing, 610 s | 89 done, 45 left, 2.3 h elapsed
+[14:15] OK   gf180_3.3V_15uF bo_warm s0 | done: first pass @1, 25 passing, 632 s | 90 done, 44 left, 2.3 h elapsed
+[14:15] OK   gf180_3.3V_15uF random s2 | done: first pass @11, 11 passing, 116 s | 91 done, 43 left, 2.3 h elapsed
+[14:17] OK   gf180_3.3V_15uF de s2 | done: first pass @30, 39 passing, 118 s | 92 done, 42 left, 2.4 h elapsed
+[14:17] OK   gf180_3.3V_15uF bo_cold s1 | done: first pass @11, 101 passing, 531 s | 93 done, 41 left, 2.4 h elapsed
+[14:19] OK   gf180_3.3V_15uF random s3 | done: first pass @8, 7 passing, 116 s | 94 done, 40 left, 2.4 h elapsed
+[14:20] OK   gf180_3.3V_15uF bo_warm s1 | done: first pass @1, 79 passing, 603 s | 95 done, 39 left, 2.4 h elapsed
+[14:21] OK   gf180_3.3V_15uF de s3 | done: first pass @36, 23 passing, 115 s | 96 done, 38 left, 2.4 h elapsed
+[14:26] OK   gf180_3.3V_15uF bo_warm s2 | done: first pass @1, 38 passing, 549 s | 97 done, 37 left, 2.5 h elapsed
+[14:27] OK   gf180_3.3V_15uF bo_cold s2 | done: first pass @4, 5 passing, 730 s | 98 done, 36 left, 2.5 h elapsed
+[14:28] OK   gf180_3.3V_15uF random s4 | done: first pass @24, 11 passing, 116 s | 99 done, 35 left, 2.5 h elapsed
+[14:29] OK   gf180_3.3V_15uF de s4 | done: first pass @22, 41 passing, 122 s | 100 done, 34 left, 2.6 h elapsed
+[14:30] OK   gf180_3.3V_15uF bo_warm s3 | done: first pass @1, 104 passing, 575 s | 101 done, 33 left, 2.6 h elapsed
+[14:31] OK   gf180_3.3V_15uF bo_cold s3 | done: first pass @8, 39 passing, 641 s | 102 done, 32 left, 2.6 h elapsed
+[14:38] OK   gf180_3.3V_15uF bo_cold s4 | done: first pass @4, 12 passing, 614 s | 103 done, 31 left, 2.7 h elapsed
+[14:38] OK   gf180_3.3V_15uF bo_warm s4 | done: first pass @1, 54 passing, 549 s | 104 done, 30 left, 2.7 h elapsed
+[14:40] OK   gf180_5V_4uF bo_lookup s0 | done: first pass @5, 12 passing, 577 s | 105 done, 29 left, 2.7 h elapsed
+[14:41] OK   gf180_3.3V_4uF bo_lookup s0 | done: first pass @208, 1 passing, 599 s | 106 done, 28 left, 2.8 h elapsed
+[14:48] OK   gf180_3.3V_4uF bo_lookup s1 | done: first pass @None, 0 passing, 602 s | 107 done, 27 left, 2.9 h elapsed
+[14:49] OK   gf180_3.3V_6.8uF bo_lookup s0 | done: first pass @4, 9 passing, 626 s | 108 done, 26 left, 2.9 h elapsed
+[14:50] OK   gf180_5V_4uF bo_lookup s1 | done: first pass @5, 65 passing, 594 s | 109 done, 25 left, 2.9 h elapsed
+[14:51] OK   gf180_3.3V_6.8uF bo_lookup s1 | done: first pass @4, 9 passing, 638 s | 110 done, 24 left, 2.9 h elapsed
+[14:57] OK   gf180_3.3V_4uF bo_lookup s2 | done: first pass @None, 0 passing, 539 s | 111 done, 23 left, 3.0 h elapsed
+[14:58] OK   gf180_5V_4uF bo_lookup s2 | done: first pass @5, 12 passing, 526 s | 112 done, 22 left, 3.0 h elapsed
+[14:59] OK   gf180_3.3V_6.8uF bo_lookup s2 | done: first pass @4, 9 passing, 546 s | 113 done, 21 left, 3.1 h elapsed
+[15:01] OK   gf180_3.3V_4uF bo_lookup s3 | done: first pass @None, 0 passing, 613 s | 114 done, 20 left, 3.1 h elapsed
+[15:06] OK   gf180_5V_4uF bo_lookup s3 | done: first pass @5, 42 passing, 543 s | 115 done, 19 left, 3.2 h elapsed
+[15:07] OK   gf180_3.3V_6.8uF bo_lookup s3 | done: first pass @4, 14 passing, 566 s | 116 done, 18 left, 3.2 h elapsed
+--- training ablation prior ablate_sobol4k.pt (Sobol rows only, n=4000) ---
+  validation R^2 (transformed scale): line=0.969  load=0.990  iq=0.997  err=0.982  pm=0.994  psrr=0.976  minsat=0.976  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9875, 'pm_ok_frac_measurable': 0.735, 'pm_ok_auc': 0.9986}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/ablate_sobol4k.pt: 4000 rows, test R2 {'line': 0.9726, 'load': 0.9868, 'iq': 0.997, 'err': 0.9801, 'pm': 0.9933, 'psrr': 0.9801, 'minsat': 0.974, 'ov': None}
+[15:09] OK   gf180_3.3V_4uF bo_lookup s4 | done: first pass @164, 1 passing, 577 s | 117 done, 17 left, 3.2 h elapsed
+--- training ablation prior ablate_sobol16k.pt (Sobol rows only, n=16000) ---
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.994  load=0.996  iq=0.999  err=0.997  pm=0.998  psrr=0.994  minsat=0.994  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.995, 'pm_ok_frac_measurable': 0.6975, 'pm_ok_auc': 0.9998}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/ablate_sobol16k.pt: 16000 rows, test R2 {'line': 0.9921, 'load': 0.9938, 'iq': 0.9984, 'err': 0.9954, 'pm': 0.9977, 'psrr': 0.9917, 'minsat': 0.9939, 'ov': None}
+[15:12] OK   gf180_5V_4uF bo_lookup s4 | done: first pass @5, 34 passing, 616 s | 118 done, 16 left, 3.3 h elapsed
+--- training ablation prior ablate_sobolall.pt (Sobol rows only, n=all) ---
+  validation R^2 (transformed scale): line=0.997  load=0.997  iq=0.999  err=0.998  pm=0.998  psrr=0.996  minsat=0.997  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9947, 'pm_ok_frac_measurable': 0.6953, 'pm_ok_auc': 0.9999}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/ablate_sobolall.pt: 39934 rows, test R2 {'line': 0.9955, 'load': 0.9953, 'iq': 0.9988, 'err': 0.9971, 'pm': 0.9988, 'psrr': 0.9958, 'minsat': 0.9963, 'ov': None}
+[15:16] OK   gf180_3.3V_6.8uF bo_lookup s4 | done: first pass @4, 6 passing, 579 s | 119 done, 15 left, 3.3 h elapsed
+[15:17] OK   gf180_3.3V_6.8uF bo_warm_sobol4k s0 | done: first pass @37, 20 passing, 560 s | 120 done, 14 left, 3.4 h elapsed
+[15:18] OK   gf180_3.3V_6.8uF bo_warm_sobol16k s0 | done: first pass @37, 25 passing, 532 s | 121 done, 13 left, 3.4 h elapsed
+[15:22] OK   gf180_3.3V_6.8uF bo_warm_sobolall s0 | done: first pass @20, 21 passing, 563 s | 122 done, 12 left, 3.4 h elapsed
+[15:26] OK   gf180_3.3V_6.8uF bo_warm_sobol4k s1 | done: first pass @51, 5 passing, 594 s | 123 done, 11 left, 3.5 h elapsed
+[15:27] OK   gf180_3.3V_6.8uF bo_warm_sobol16k s1 | done: first pass @51, 4 passing, 591 s | 124 done, 10 left, 3.5 h elapsed
+[15:29] OK   gf180_3.3V_6.8uF bo_warm_sobolall s1 | done: first pass @None, 0 passing, 650 s | 125 done, 9 left, 3.6 h elapsed
+[15:31] OK   gf180_3.3V_6.8uF bo_warm_sobol4k s2 | done: first pass @None, 0 passing, 550 s | 126 done, 8 left, 3.6 h elapsed
+[15:35] OK   gf180_3.3V_6.8uF bo_warm_sobol16k s2 | done: first pass @None, 0 passing, 518 s | 127 done, 7 left, 3.7 h elapsed
+[15:36] OK   gf180_3.3V_6.8uF bo_warm_sobolall s2 | done: first pass @218, 1 passing, 574 s | 128 done, 6 left, 3.7 h elapsed
+[15:39] OK   gf180_3.3V_6.8uF bo_warm_sobol4k s3 | done: first pass @48, 5 passing, 570 s | 129 done, 5 left, 3.7 h elapsed
+[15:41] OK   gf180_3.3V_6.8uF bo_warm_sobol16k s3 | done: first pass @48, 7 passing, 574 s | 130 done, 4 left, 3.8 h elapsed
+[15:45] OK   gf180_3.3V_6.8uF bo_warm_sobolall s3 | done: first pass @15, 2 passing, 581 s | 131 done, 3 left, 3.8 h elapsed
+[15:45] OK   gf180_3.3V_6.8uF bo_warm_sobol4k s4 | done: first pass @57, 12 passing, 537 s | 132 done, 2 left, 3.8 h elapsed
+[15:47] OK   gf180_3.3V_6.8uF bo_warm_sobol16k s4 | done: first pass @57, 4 passing, 511 s | 133 done, 1 left, 3.9 h elapsed
+[15:49] OK   gf180_3.3V_6.8uF bo_warm_sobolall s4 | done: first pass @15, 25 passing, 473 s | 134 done, 0 left, 3.9 h elapsed
+=== 2026-11-25 15:49:05 ensemble decisions
+--- training hold-out MLP holdout_3.3V_15uF_m1.pt (no data at 3.3 V / 15 uF) ---
+training data: 11502 unique evaluations from 41 run folders + 62060 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=13442, failed_sims_excluded=264, pm_masked=1836, psrr_masked=29, runs_without_spec=10, train_rows_near_test_dropped=0
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.996  load=0.995  iq=0.999  err=0.998  pm=0.999  psrr=0.996  minsat=0.994  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9956, 'pm_ok_frac_measurable': 0.721, 'pm_ok_auc': 0.9999}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  TEST R^2 on 1997 held-out dataset rows:  line=0.995  load=0.995  iq=0.999  err=0.997  pm=0.999  psrr=0.997  minsat=0.996  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.9955, 'pm_ok_frac_measurable': 0.685, 'pm_ok_auc': 0.9999}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_15uF_m1.pt
+--- training hold-out MLP holdout_3.3V_15uF_m2.pt (no data at 3.3 V / 15 uF) ---
+training data: 11502 unique evaluations from 41 run folders + 62060 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=13442, failed_sims_excluded=264, pm_masked=1836, psrr_masked=29, runs_without_spec=10, train_rows_near_test_dropped=0
+  validation R^2 (transformed scale): line=0.996  load=0.996  iq=0.998  err=0.998  pm=0.999  psrr=0.996  minsat=0.995  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9941, 'pm_ok_frac_measurable': 0.7171, 'pm_ok_auc': 0.9998}
+  TEST R^2 on 1997 held-out dataset rows:  line=0.995  load=0.995  iq=0.998  err=0.997  pm=0.999  psrr=0.996  minsat=0.996  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.995, 'pm_ok_frac_measurable': 0.685, 'pm_ok_auc': 0.9999}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_15uF_m2.pt
+{'run': 'gf180_3.3V_15uF/bo_warm_s0', 'vout': 3.3, 'cout': 15.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.8388225843938832, 'mean_margin_std': 0.01625339782179938}
+{'run': 'gf180_3.3V_15uF/bo_warm_s1', 'vout': 3.3, 'cout': 15.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.9032718346959177, 'mean_margin_std': 0.032148777953191175}
+{'run': 'gf180_3.3V_15uF/bo_warm_s2', 'vout': 3.3, 'cout': 15.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.8224574712228724, 'mean_margin_std': 0.03124965724468283}
+{'run': 'gf180_3.3V_15uF/bo_warm_s3', 'vout': 3.3, 'cout': 15.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.9579124862605943, 'mean_margin_std': 0.05136309379144849}
+{'run': 'gf180_3.3V_15uF/bo_warm_s4', 'vout': 3.3, 'cout': 15.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.7840915539745864, 'mean_margin_std': 0.050277594799577593}
+--- training hold-out MLP holdout_3.3V_4uF_m1.pt (no data at 3.3 V / 4 uF) ---
+training data: 5054 unique evaluations from 19 run folders + 28663 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=3066, failed_sims_excluded=129, pm_masked=512, psrr_masked=2, runs_without_spec=10, train_rows_near_test_dropped=0
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.985  load=0.973  iq=0.993  err=0.982  pm=0.997  psrr=0.981  minsat=0.971  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9938, 'pm_ok_frac_measurable': 0.8398, 'pm_ok_auc': 0.9976}
+  TEST R^2 on 1000 held-out dataset rows:  line=0.992  load=0.982  iq=1.000  err=0.989  pm=0.999  psrr=0.994  minsat=0.997  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.991, 'pm_ok_frac_measurable': 0.85, 'pm_ok_auc': 0.9995}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_4uF_m1.pt
+--- training hold-out MLP holdout_3.3V_4uF_m2.pt (no data at 3.3 V / 4 uF) ---
+training data: 5054 unique evaluations from 19 run folders + 28663 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=3066, failed_sims_excluded=129, pm_masked=512, psrr_masked=2, runs_without_spec=10, train_rows_near_test_dropped=0
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.994  load=0.982  iq=1.000  err=0.992  pm=0.999  psrr=0.993  minsat=0.994  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9954, 'pm_ok_frac_measurable': 0.8748, 'pm_ok_auc': 0.9998}
+  TEST R^2 on 1000 held-out dataset rows:  line=0.992  load=0.984  iq=1.000  err=0.991  pm=0.999  psrr=0.995  minsat=0.997  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.993, 'pm_ok_frac_measurable': 0.85, 'pm_ok_auc': 0.9997}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_4uF_m2.pt
+{'run': 'gf180_3.3V_4uF/bo_warm_s0', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 6, 'mean_psrr_std_dB': 1.5108330524995912, 'mean_margin_std': 0.25614175790401283}
+{'run': 'gf180_3.3V_4uF/bo_warm_s1', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 4, 'mean_psrr_std_dB': 1.5197146147184837, 'mean_margin_std': 0.1980019929145672}
+{'run': 'gf180_3.3V_4uF/bo_warm_s2', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 7, 'mean_psrr_std_dB': 1.6546656814274556, 'mean_margin_std': 0.27472141933281147}
+{'run': 'gf180_3.3V_4uF/bo_warm_s3', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 4, 'mean_psrr_std_dB': 1.5086459154381586, 'mean_margin_std': 0.26013256705302445}
+{'run': 'gf180_3.3V_4uF/bo_warm_s4', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 7, 'mean_psrr_std_dB': 1.6486771053773788, 'mean_margin_std': 0.29987141159360764}
+{'run': 'gf180_3.3V_4uF/bo_warm_s5', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 4, 'mean_psrr_std_dB': 1.5843456513380771, 'mean_margin_std': 0.22096586318507103}
+{'run': 'gf180_3.3V_4uF/bo_warm_s6', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 4, 'mean_psrr_std_dB': 1.5893794007926565, 'mean_margin_std': 0.2792702945454451}
+{'run': 'gf180_3.3V_4uF/bo_warm_s7', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 5, 'mean_psrr_std_dB': 1.6117652818854904, 'mean_margin_std': 0.2975478502214187}
+{'run': 'gf180_3.3V_4uF/bo_warm_s8', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 7, 'mean_psrr_std_dB': 1.5492199078128266, 'mean_margin_std': 0.24647726199524744}
+{'run': 'gf180_3.3V_4uF/bo_warm_s9', 'vout': 3.3, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 7, 'mean_psrr_std_dB': 1.6628495164961579, 'mean_margin_std': 0.26281217306461907}
+--- training hold-out MLP holdout_3.3V_6.8uF_m1.pt (no data at 3.3 V / 6.8 uF) ---
+training data: 10451 unique evaluations from 38 run folders + 62060 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=13442, failed_sims_excluded=232, pm_masked=1561, psrr_masked=28, runs_without_spec=10, train_rows_near_test_dropped=0
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  validation R^2 (transformed scale): line=0.995  load=0.996  iq=0.999  err=0.997  pm=0.996  psrr=0.994  minsat=0.993  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9964, 'pm_ok_frac_measurable': 0.7264, 'pm_ok_auc': 0.9999}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  TEST R^2 on 1997 held-out dataset rows:  line=0.995  load=0.995  iq=0.999  err=0.997  pm=0.999  psrr=0.994  minsat=0.995  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.994, 'pm_ok_frac_measurable': 0.685, 'pm_ok_auc': 0.9999}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_6.8uF_m1.pt
+--- training hold-out MLP holdout_3.3V_6.8uF_m2.pt (no data at 3.3 V / 6.8 uF) ---
+training data: 10451 unique evaluations from 38 run folders + 62060 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 4 uF: 31962
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=13442, failed_sims_excluded=232, pm_masked=1561, psrr_masked=28, runs_without_spec=10, train_rows_near_test_dropped=0
+  validation R^2 (transformed scale): line=0.996  load=0.996  iq=0.999  err=0.997  pm=0.998  psrr=0.996  minsat=0.996  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9951, 'pm_ok_frac_measurable': 0.7274, 'pm_ok_auc': 0.9997}
+  TEST R^2 on 1997 held-out dataset rows:  line=0.995  load=0.995  iq=0.999  err=0.997  pm=0.999  psrr=0.996  minsat=0.996  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.996, 'pm_ok_frac_measurable': 0.685, 'pm_ok_auc': 0.9999}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_6.8uF_m2.pt
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s0', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.9567841402949733, 'mean_margin_std': 0.022460516543193934}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s1', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.7891096606014905, 'mean_margin_std': 0.01623215326639214}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s2', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 7, 'mean_psrr_std_dB': 0.8293920229859973, 'mean_margin_std': 0.03936727877107301}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s3', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.8528357223883595, 'mean_margin_std': 0.03106611672429475}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s4', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.852255656076871, 'mean_margin_std': 0.01951042745804875}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s5', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 7, 'mean_psrr_std_dB': 0.9489534208397611, 'mean_margin_std': 0.04921097132173293}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s6', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 7, 'mean_psrr_std_dB': 0.8355422468433666, 'mean_margin_std': 0.028111084866496744}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s7', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 7, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.8810653987900612, 'mean_margin_std': 0.033237338037829404}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s8', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 0.8650143888607624, 'mean_margin_std': 0.018178786672526828}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_s9', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 8, 'unanimous_pred_pass': 8, 'fallback': False, 'sim_pass': 8, 'mean_psrr_std_dB': 1.0458039511154709, 'mean_margin_std': 0.021416050241955708}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol16k_s0', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.990741838273892, 'mean_margin_std': 27.53226706544191}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol16k_s1', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.7583693404518395, 'mean_margin_std': 8.7051496298204}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol16k_s2', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.833228604917358, 'mean_margin_std': 8.005754154639199}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol16k_s3', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.548751450927734, 'mean_margin_std': 1.144618037155886}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol16k_s4', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.7878272941436065, 'mean_margin_std': 37.981328881736005}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol4k_s0', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.990741838273892, 'mean_margin_std': 27.53226706544191}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol4k_s1', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.7583693404518395, 'mean_margin_std': 8.7051496298204}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol4k_s2', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.833228604917358, 'mean_margin_std': 8.005754154639199}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol4k_s3', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.548751450927734, 'mean_margin_std': 1.144618037155886}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobol4k_s4', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.7878272941436065, 'mean_margin_std': 37.981328881736005}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobolall_s0', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.9272275066806531, 'mean_margin_std': 0.09202564056181142}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobolall_s1', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.8027713957369651, 'mean_margin_std': 0.17163093977172408}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobolall_s2', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.7202743688090423, 'mean_margin_std': 0.21191305197675414}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobolall_s3', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 1, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 0.764381715152443, 'mean_margin_std': 0.125999669502319}
+{'run': 'gf180_3.3V_6.8uF/bo_warm_sobolall_s4', 'vout': 3.3, 'cout': 6.8, 'n_init': 8, 'single_model_pred_pass': 1, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 1.0484544890459309, 'mean_margin_std': 0.2259064244185723}
+--- training hold-out MLP holdout_5V_4uF_m1.pt (no data at 5 V / 4 uF) ---
+training data: 8203 unique evaluations from 27 run folders + 33397 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=10376, failed_sims_excluded=185, pm_masked=1694, psrr_masked=28, runs_without_spec=10, train_rows_near_test_dropped=0
+  validation R^2 (transformed scale): line=0.996  load=0.996  iq=0.999  err=0.998  pm=0.999  psrr=0.997  minsat=0.997  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.9962, 'pm_ok_frac_measurable': 0.5803, 'pm_ok_auc': 0.9999}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+  TEST R^2 on 997 held-out dataset rows:  line=0.994  load=0.997  iq=0.998  err=0.998  pm=0.999  psrr=0.996  minsat=0.995  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.996, 'pm_ok_frac_measurable': 0.5196, 'pm_ok_auc': 1.0}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_5V_4uF_m1.pt
+--- training hold-out MLP holdout_5V_4uF_m2.pt (no data at 5 V / 4 uF) ---
+training data: 8203 unique evaluations from 27 run folders + 33397 dataset rows (active_gf180_3.3V.jsonl, data_gf180_3.3V.jsonl, data_gf180_5V.jsonl) (gf180)
+   VOUT 3.3 V, Cout 4 uF: 39845
+   VOUT 3.3 V, Cout 6.8 uF: 1051
+   VOUT 3.3 V, Cout 10 uF: 348
+   VOUT 5 V, Cout 10 uF: 356
+   data hygiene: dataset_failed_excluded=71, dataset_pm_masked=10376, failed_sims_excluded=185, pm_masked=1694, psrr_masked=28, runs_without_spec=10, train_rows_near_test_dropped=0
+  validation R^2 (transformed scale): line=-0.140  load=-0.957  iq=0.904  err=-0.480  pm=-1.537  psrr=0.471  minsat=-0.090  ov=const
+  validation PM-measurable classifier: {'pm_ok_acc': 0.8634, 'pm_ok_frac_measurable': 0.6288, 'pm_ok_auc': 0.8455}
+  TEST R^2 on 997 held-out dataset rows:  line=0.892  load=0.938  iq=0.966  err=0.908  pm=0.911  psrr=0.840  minsat=0.163  ov=const
+  TEST PM-measurable classifier: {'pm_ok_acc': 0.9468, 'pm_ok_frac_measurable': 0.5196, 'pm_ok_auc': 0.9862}
+saved /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_5V_4uF_m2.pt
+{'run': 'gf180_5V_4uF/bo_warm_s0', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.5464350628144, 'mean_margin_std': 116.69247637529986}
+{'run': 'gf180_5V_4uF/bo_warm_s1', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.37100586151648, 'mean_margin_std': 110.18178501111919}
+{'run': 'gf180_5V_4uF/bo_warm_s2', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.87569600284263, 'mean_margin_std': 103.75751350966922}
+{'run': 'gf180_5V_4uF/bo_warm_s3', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.38300638695573, 'mean_margin_std': 101.32036367889818}
+{'run': 'gf180_5V_4uF/bo_warm_s4', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.77002767952569, 'mean_margin_std': 112.43929114396542}
+{'run': 'gf180_5V_4uF/bo_warm_s5', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 19.073262319414752, 'mean_margin_std': 122.14062588377664}
+{'run': 'gf180_5V_4uF/bo_warm_s6', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.47581075271262, 'mean_margin_std': 95.71997879944715}
+{'run': 'gf180_5V_4uF/bo_warm_s7', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.85368801529023, 'mean_margin_std': 97.04919553383183}
+{'run': 'gf180_5V_4uF/bo_warm_s8', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 19.132946719089023, 'mean_margin_std': 116.44866664689205}
+{'run': 'gf180_5V_4uF/bo_warm_s9', 'vout': 5.0, 'cout': 4.0, 'n_init': 8, 'single_model_pred_pass': 0, 'unanimous_pred_pass': 0, 'fallback': True, 'sim_pass': 0, 'mean_psrr_std_dB': 18.47695091638917, 'mean_margin_std': 111.43492936373217}
+=== 2026-11-25 15:52:26 screening baselines
+random_forest {'true_pass': 36, 'pred_pass': 31, 'accuracy': 0.9904857285928893, 'precision': np.float64(0.7741935483870968), 'recall': 0.6666666666666666, 'precision_at_n': 0.75, 'psrr_mae': 1.0442158858181885, 'pm_mae': 10.19681474482697, 'iq_mae': 0.6173949880646427, 'train_s': 62}
+hist_gradient_boosting {'true_pass': 36, 'pred_pass': 47, 'accuracy': 0.9924887330996495, 'precision': np.float64(0.723404255319149), 'recall': 0.9444444444444444, 'precision_at_n': 0.7777777777777778, 'psrr_mae': 1.1941332334644639, 'pm_mae': 7.441080494977788, 'iq_mae': 0.4573370280005031, 'train_s': 8}
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+
+spec                method               seeds  passed  first pass: median [min-max]   passing designs: median [min-max]
+gf180_3.3V_15uF     random                   5     5/5  11 [6-77]                   11 [7-11]
+gf180_3.3V_15uF     de                       5     5/5  30 [2-37]                   41 [23-97]
+gf180_3.3V_15uF     bo_cold                  5     5/5  8 [4-11]                    12 [3-101]
+gf180_3.3V_15uF     bo_warm                  5     5/5  1 [1-1]                     54 [25-104]
+gf180_3.3V_4uF      random                  10    1/10  109 [109-109]               0 [0-1]
+gf180_3.3V_4uF      de                      10    3/10  193 [138-233]               0 [0-4]
+gf180_3.3V_4uF      bo_cold                 10    2/10  102 [16-188]                0 [0-2]
+gf180_3.3V_4uF      bo_warm                 10   10/10  1 [1-3]                     11 [7-25]
+gf180_3.3V_4uF      bo_lookup                5     2/5  186 [164-208]               0 [0-1]
+gf180_3.3V_6.8uF    random                  10   10/10  43 [11-173]                 3 [1-5]
+gf180_3.3V_6.8uF    de                      10   10/10  99 [19-139]                 7 [2-20]
+gf180_3.3V_6.8uF    bo_cold                 10    9/10  44 [11-97]                  2 [0-13]
+gf180_3.3V_6.8uF    bo_warm                 10   10/10  1 [1-2]                     21 [11-56]
+gf180_3.3V_6.8uF    bo_lookup                5     5/5  4 [4-4]                     9 [6-14]
+gf180_3.3V_6.8uF    bo_warm_sobol4k          5     4/5  49 [37-57]                  5 [0-20]
+gf180_3.3V_6.8uF    bo_warm_sobol16k         5     4/5  49 [37-57]                  4 [0-25]
+gf180_3.3V_6.8uF    bo_warm_sobolall         5     4/5  17 [15-218]                 2 [0-25]
+gf180_5V_4uF        random                  10   10/10  25 [2-98]                   7 [4-12]
+gf180_5V_4uF        de                      10   10/10  23 [4-108]                  23 [16-36]
+gf180_5V_4uF        bo_cold                 10   10/10  42 [1-99]                   4 [2-9]
+gf180_5V_4uF        bo_warm                 10   10/10  59 [12-177]                 11 [3-22]
+gf180_5V_4uF        bo_lookup                5     5/5  5 [5-5]                     34 [12-65]
+
+per-seed results -> /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/per_seed.json
+=== 2026-11-25 15:53:43 ALL DONE -> Downloads/rev_results.tgz

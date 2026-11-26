@@ -1,0 +1,21 @@
+=== [gf180_3.3V_4uF] bo_lookup seed 1 (bo seed 1320, batch 14, 3 workers) ===
+[stage 1] 8/250  best=1.9862  screened-passing=0  5s
+[stage 1] 22/250  best=0.8273  screened-passing=0  18s
+[stage 1] 36/250  best=0.8273  screened-passing=0  30s
+[stage 1] 50/250  best=0.6483  screened-passing=0  43s
+[stage 1] 64/250  best=0.6483  screened-passing=0  58s
+[stage 1] 78/250  best=0.6483  screened-passing=0  75s
+[stage 1] 92/250  best=0.6483  screened-passing=0  94s
+[stage 1] 106/250  best=0.6483  screened-passing=0  116s
+[stage 1] 120/250  best=0.6483  screened-passing=0  140s
+[stage 1] 134/250  best=0.6483  screened-passing=0  168s
+[stage 1] 148/250  best=0.6483  screened-passing=0  201s
+[stage 1] 162/250  best=0.6483  screened-passing=0  235s
+[stage 1] 176/250  best=0.6483  screened-passing=0  275s
+[stage 1] 190/250  best=0.6483  screened-passing=0  318s
+[stage 1] 204/250  best=0.6483  screened-passing=0  370s
+[stage 1] 218/250  best=0.6483  screened-passing=0  426s
+[stage 1] 232/250  best=0.6483  screened-passing=0  493s
+[stage 1] 246/250  best=0.6418  screened-passing=0  569s
+[stage 1] 250/250  best=0.6418  screened-passing=0  602s
+done: first pass @None, 0 passing, 602 s

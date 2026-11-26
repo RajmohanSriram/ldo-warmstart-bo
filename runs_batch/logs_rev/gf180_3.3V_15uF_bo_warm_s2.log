@@ -1,0 +1,40 @@
+WARM START: MLP surrogate /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_3.3V_15uF.pt (trained on 66112 evaluations); 8 proposals per slice, online retrain every 40 evaluations
+=== [gf180_3.3V_15uF] bo_warm seed 2 (bo seed 2320, batch 14, 3 workers) ===
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+WARM START: 8 MLP proposals in 0.6s, predicted margins +0.22, +0.21, +0.20, +0.20, +0.20, +0.20, +0.20, +0.19
+[stage 1] 8/250  best=0.8842  screened-passing=8  6s
+[stage 1] 22/250  best=0.8842  screened-passing=8  15s
+[stage 1] 36/250  best=0.8842  screened-passing=8  27s
+[stage 1] 50/250  best=0.5788  screened-passing=12  39s
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+ONLINE: MLP retrained on 50 run evaluations (1.4s), proposing 1 point(s)
+[stage 1] 64/250  best=0.5788  screened-passing=15  54s
+[stage 1] 78/250  best=0.5788  screened-passing=15  70s
+[stage 1] 92/250  best=0.5778  screened-passing=17  87s
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+ONLINE: MLP retrained on 92 run evaluations (0.9s), proposing 1 point(s)
+[stage 1] 106/250  best=0.5657  screened-passing=19  108s
+[stage 1] 120/250  best=0.5657  screened-passing=20  129s
+[stage 1] 134/250  best=0.5657  screened-passing=23  154s
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+ONLINE: MLP retrained on 134 run evaluations (1.2s), proposing 1 point(s)
+[stage 1] 148/250  best=0.5657  screened-passing=29  182s
+[stage 1] 162/250  best=0.5514  screened-passing=30  216s
+[stage 1] 176/250  best=0.5514  screened-passing=30  255s
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+ONLINE: MLP retrained on 176 run evaluations (1.0s), proposing 1 point(s)
+[stage 1] 190/250  best=0.5514  screened-passing=31  297s
+[stage 1] 204/250  best=0.5514  screened-passing=31  345s
+[stage 1] 218/250  best=0.5514  screened-passing=31  396s
+/home/rajmohan_sriram/ldo_project/optimizer/surrogate_ws.py:386: RuntimeWarning: overflow encountered in exp
+  R = np.column_stack([R, 1.0 / (1.0 + np.exp(-O[:, nt]))])
+ONLINE: MLP retrained on 218 run evaluations (0.9s), proposing 1 point(s)
+[stage 1] 232/250  best=0.5514  screened-passing=34  453s
+[stage 1] 246/250  best=0.5514  screened-passing=38  521s
+[stage 1] 250/250  best=0.5514  screened-passing=38  549s
+done: first pass @1, 38 passing, 549 s

@@ -1,0 +1,30 @@
+{
+ "spec": "gf180_3.3V_6.8uF",
+ "method": "bo_warm_runsonly",
+ "seed": 0,
+ "bo_seed": 320,
+ "batch": 14,
+ "workers": 3,
+ "n_evals": 250,
+ "first_pass": 1,
+ "n_screen": 15,
+ "best_total": 0.5996259836756828,
+ "best_at": {
+  "25": 0.831685534479458,
+  "50": 0.831685534479458,
+  "100": 0.782455179918921,
+  "150": 0.7797659636724482,
+  "200": 0.6990748888366354,
+  "250": 0.5996259836756828,
+  "400": 0.5996259836756828
+ },
+ "runtime_s": 707,
+ "warm": {
+  "mode": "mlp",
+  "status": "mlp",
+  "proposals": 13,
+  "online_retrains": 5,
+  "proposals_simulated": 13,
+  "proposals_passing_screen": 12
+ }
+}

@@ -1,0 +1,28 @@
+WARM START: MLP surrogate /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/holdout_5V_4uF.pt (trained on 36488 evaluations); 8 proposals per slice, online retrain every 40 evaluations
+=== [gf180_5V_4uF] bo_warm seed 3 (bo seed 3320, batch 14, 3 workers) ===
+WARM START: 8 MLP proposals in 0.5s, predicted margins -13.33, -14.26, -14.44, -14.63, -14.82, -14.87, -14.99, -15.06
+[stage 1] 8/250  best=81.1688  screened-passing=0  6s
+[stage 1] 22/250  best=1.0378  screened-passing=2  17s
+[stage 1] 36/250  best=1.0378  screened-passing=2  29s
+[stage 1] 50/250  best=0.7524  screened-passing=3  41s
+ONLINE: MLP retrained on 50 run evaluations (1.3s), proposing 1 point(s)
+[stage 1] 64/250  best=0.5287  screened-passing=6  54s
+[stage 1] 78/250  best=0.5287  screened-passing=6  68s
+[stage 1] 92/250  best=0.5049  screened-passing=7  84s
+ONLINE: MLP retrained on 92 run evaluations (1.0s), proposing 1 point(s)
+[stage 1] 106/250  best=0.5049  screened-passing=8  104s
+[stage 1] 120/250  best=0.5049  screened-passing=8  126s
+[stage 1] 134/250  best=0.5049  screened-passing=9  153s
+ONLINE: MLP retrained on 134 run evaluations (1.1s), proposing 1 point(s)
+[stage 1] 148/250  best=0.4524  screened-passing=11  182s
+[stage 1] 162/250  best=0.4524  screened-passing=12  218s
+[stage 1] 176/250  best=0.4524  screened-passing=13  259s
+ONLINE: MLP retrained on 176 run evaluations (1.0s), proposing 1 point(s)
+[stage 1] 190/250  best=0.4524  screened-passing=14  303s
+[stage 1] 204/250  best=0.4524  screened-passing=14  358s
+[stage 1] 218/250  best=0.4524  screened-passing=14  417s
+ONLINE: MLP retrained on 218 run evaluations (1.3s), proposing 1 point(s)
+[stage 1] 232/250  best=0.4524  screened-passing=14  485s
+[stage 1] 246/250  best=0.4524  screened-passing=15  555s
+[stage 1] 250/250  best=0.4524  screened-passing=15  585s
+done: first pass @14, 15 passing, 585 s

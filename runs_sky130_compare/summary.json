@@ -1,0 +1,83 @@
+[
+ {
+  "arm": "cold",
+  "seed": 0,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 344,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/cold/20261103_160746_sky130_3.3V/result.json"
+ },
+ {
+  "arm": "warm_new",
+  "seed": 0,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": 344,
+  "runtime_s": 330,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_new/20261103_161330_sky130_3.3V_warm/result.json"
+ },
+ {
+  "arm": "warm_old",
+  "seed": 0,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 329,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_old/20261103_161901_sky130_3.3V_warm/result.json"
+ },
+ {
+  "arm": "cold",
+  "seed": 1,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 324,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/cold/20261103_162430_sky130_3.3V/result.json"
+ },
+ {
+  "arm": "warm_new",
+  "seed": 1,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 313,
+  "runtime_s": 328,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_new/20261103_162954_sky130_3.3V_warm/result.json"
+ },
+ {
+  "arm": "warm_old",
+  "seed": 1,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 323,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_old/20261103_163523_sky130_3.3V_warm/result.json"
+ },
+ {
+  "arm": "cold",
+  "seed": 2,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 324,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/cold/20261103_164046_sky130_3.3V/result.json"
+ },
+ {
+  "arm": "warm_new",
+  "seed": 2,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 313,
+  "runtime_s": 330,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_new/20261103_164611_sky130_3.3V_warm/result.json"
+ },
+ {
+  "arm": "warm_old",
+  "seed": 2,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 345,
+  "runtime_s": 334,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_sky130_compare/warm_old/20261103_165141_sky130_3.3V_warm/result.json"
+ }
+]

@@ -1,0 +1,89 @@
+[
+ {
+  "mode": "cold",
+  "seed": 0,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 135,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_123648_gf180_3.3V/result.json",
+  "warm": {
+   "mode": "cold"
+  }
+ },
+ {
+  "mode": "warm",
+  "seed": 0,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 167,
+  "runtime_s": 146,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_123902_gf180_3.3V_warm/result.json",
+  "warm": {
+   "mode": "mlp",
+   "status": "mlp",
+   "proposals": 32,
+   "online_retrains": 8,
+   "proposals_simulated": 32,
+   "proposals_passing_screen": 10
+  }
+ },
+ {
+  "mode": "cold",
+  "seed": 1,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 140,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_124129_gf180_3.3V/result.json",
+  "warm": {
+   "mode": "cold"
+  }
+ },
+ {
+  "mode": "warm",
+  "seed": 1,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 167,
+  "runtime_s": 146,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_124349_gf180_3.3V_warm/result.json",
+  "warm": {
+   "mode": "mlp",
+   "status": "mlp",
+   "proposals": 32,
+   "online_retrains": 8,
+   "proposals_simulated": 32,
+   "proposals_passing_screen": 8
+  }
+ },
+ {
+  "mode": "cold",
+  "seed": 2,
+  "status": "no_design_met_spec",
+  "evaluations": 369,
+  "first_pass": null,
+  "runtime_s": 138,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_124615_gf180_3.3V/result.json",
+  "warm": {
+   "mode": "cold"
+  }
+ },
+ {
+  "mode": "warm",
+  "seed": 2,
+  "status": "met_spec",
+  "evaluations": 369,
+  "first_pass": 168,
+  "runtime_s": 140,
+  "result": "/home/rajmohan_sriram/ldo_project/optimizer/runs_batch/flow/20261103_124833_gf180_3.3V_warm/result.json",
+  "warm": {
+   "mode": "mlp",
+   "status": "mlp",
+   "proposals": 32,
+   "online_retrains": 8,
+   "proposals_simulated": 32,
+   "proposals_passing_screen": 9
+  }
+ }
+]

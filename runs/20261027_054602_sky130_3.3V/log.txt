@@ -1,0 +1,1 @@
+  [debug] Win=44.2 Lin=1.86 Wt=10.0 n=801 Wfol=87.1 Wbn2=1.08 Wm=21.9 Wvb=1.73 R1=210.2k | line=0.7mV(<=3.3) load=2.0mV iq=49uA vout_err=2mV PM=-53 PSRR=47.5dB minsat=115mV(x5@fs) area=4312 | pen line=0.00 load=0.00 iq=0.00 acc=0.00 pm=746.71 psrr=0.00 sat=0.00 ov=0.00 area=0.43 | total=747.1375

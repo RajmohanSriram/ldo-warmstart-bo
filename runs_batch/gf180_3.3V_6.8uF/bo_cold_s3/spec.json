@@ -1,0 +1,12 @@
+{
+ "pdk": "gf180",
+ "vout": 3.3,
+ "cout_uF": 6.8,
+ "psrr_min_dB": 40.0,
+ "method": "bo_cold",
+ "seed": 3,
+ "bo_seed": 3219,
+ "budget": 250,
+ "batch": 14,
+ "workers": 3
+}

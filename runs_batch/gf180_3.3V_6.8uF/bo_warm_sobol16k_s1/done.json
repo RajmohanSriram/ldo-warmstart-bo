@@ -1,0 +1,30 @@
+{
+ "spec": "gf180_3.3V_6.8uF",
+ "method": "bo_warm_sobol16k",
+ "seed": 1,
+ "bo_seed": 1320,
+ "batch": 14,
+ "workers": 3,
+ "n_evals": 250,
+ "first_pass": 51,
+ "n_screen": 4,
+ "best_total": 0.652481627256465,
+ "best_at": {
+  "25": 0.7986834076726005,
+  "50": 0.7343541693466252,
+  "100": 0.652481627256465,
+  "150": 0.652481627256465,
+  "200": 0.652481627256465,
+  "250": 0.652481627256465,
+  "400": 0.652481627256465
+ },
+ "runtime_s": 591,
+ "warm": {
+  "mode": "mlp",
+  "status": "mlp",
+  "proposals": 13,
+  "online_retrains": 5,
+  "proposals_simulated": 13,
+  "proposals_passing_screen": 0
+ }
+}

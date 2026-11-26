@@ -1,0 +1,67 @@
+{
+ "val_near_dup_dropped": 361,
+ "val_r2": {
+  "line": 0.9962,
+  "load": 0.9958,
+  "iq": 0.999,
+  "err": 0.9977,
+  "pm": 0.9987,
+  "psrr": 0.9952,
+  "minsat": 0.9963,
+  "ov": null
+ },
+ "n_val": 6750,
+ "val_split": "grouped by run folder / dataset source",
+ "val_pm_ok_acc": 0.9954,
+ "val_pm_ok_frac_measurable": 0.7028,
+ "val_pm_ok_auc": 0.9996,
+ "n_train": 63994,
+ "epochs": 111,
+ "trained_at": "2026-11-03 09:44:01",
+ "pdk": "gf180",
+ "roots": [
+  "runs"
+ ],
+ "n_runs": 34,
+ "dataset_files": [
+  "/home/rajmohan_sriram/ldo_project/optimizer_pc/dataset/active_gf180_3.3V.jsonl",
+  "/home/rajmohan_sriram/ldo_project/optimizer_pc/dataset/data_gf180_3.3V.jsonl",
+  "/home/rajmohan_sriram/ldo_project/optimizer_pc/dataset/data_gf180_5V.jsonl"
+ ],
+ "data_hygiene": {
+  "runs_without_spec": 10,
+  "pm_masked": 1290,
+  "failed_sims_excluded": 206,
+  "psrr_masked": 24,
+  "dataset_pm_masked": 13442,
+  "dataset_failed_excluded": 71,
+  "train_rows_near_test_dropped": 0
+ },
+ "coverage": {
+  "3.3V_4uF": 38788,
+  "3.3V_10uF": 348,
+  "5V_4uF": 31613,
+  "5V_10uF": 356
+ },
+ "excluded": [
+  [
+   3.3,
+   6.8
+  ]
+ ],
+ "test_pm_ok_acc": 0.9955,
+ "test_pm_ok_frac_measurable": 0.685,
+ "test_pm_ok_auc": 0.9999,
+ "test_r2": {
+  "line": 0.9949,
+  "load": 0.9951,
+  "iq": 0.9987,
+  "err": 0.9973,
+  "pm": 0.999,
+  "psrr": 0.9956,
+  "minsat": 0.9956,
+  "ov": null
+ },
+ "n_test": 1997,
+ "test_set": "dataset split=='test' rows (never used for training or early stopping)"
+}

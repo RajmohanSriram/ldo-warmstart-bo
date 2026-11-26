@@ -1,0 +1,28 @@
+WARM START: MLP surrogate /home/rajmohan_sriram/ldo_project/optimizer/runs_batch/models/ablate_sobolall.pt (trained on 35940 evaluations); 8 proposals per slice, online retrain every 40 evaluations
+=== [gf180_3.3V_6.8uF] bo_warm_sobolall seed 2 (bo seed 2320, batch 14, 3 workers) ===
+WARM START: 8 MLP proposals in 0.6s, predicted margins -18912.24, -18912.33, -18912.40, -18912.40, -18912.40, -18912.41, -18912.42, -18912.47
+[stage 1] 8/250  best=1.1569  screened-passing=0  6s
+[stage 1] 22/250  best=1.1569  screened-passing=0  16s
+[stage 1] 36/250  best=1.1569  screened-passing=0  28s
+[stage 1] 50/250  best=0.9834  screened-passing=0  41s
+ONLINE: MLP retrained on 50 run evaluations (1.4s), proposing 1 point(s)
+[stage 1] 64/250  best=0.9325  screened-passing=0  57s
+[stage 1] 78/250  best=0.9325  screened-passing=0  72s
+[stage 1] 92/250  best=0.7045  screened-passing=0  90s
+ONLINE: MLP retrained on 92 run evaluations (1.0s), proposing 1 point(s)
+[stage 1] 106/250  best=0.7045  screened-passing=0  111s
+[stage 1] 120/250  best=0.7045  screened-passing=0  135s
+[stage 1] 134/250  best=0.7045  screened-passing=0  162s
+ONLINE: MLP retrained on 134 run evaluations (1.1s), proposing 1 point(s)
+[stage 1] 148/250  best=0.7045  screened-passing=0  193s
+[stage 1] 162/250  best=0.7045  screened-passing=0  228s
+[stage 1] 176/250  best=0.7045  screened-passing=0  269s
+ONLINE: MLP retrained on 176 run evaluations (1.1s), proposing 1 point(s)
+[stage 1] 190/250  best=0.7045  screened-passing=0  314s
+[stage 1] 204/250  best=0.7045  screened-passing=0  364s
+[stage 1] 218/250  best=0.7045  screened-passing=1  418s
+ONLINE: MLP retrained on 218 run evaluations (1.1s), proposing 1 point(s)
+[stage 1] 232/250  best=0.7045  screened-passing=1  478s
+[stage 1] 246/250  best=0.7045  screened-passing=1  546s
+[stage 1] 250/250  best=0.7045  screened-passing=1  574s
+done: first pass @218, 1 passing, 574 s

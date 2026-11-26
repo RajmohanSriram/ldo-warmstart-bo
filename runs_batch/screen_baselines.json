@@ -1,0 +1,38 @@
+{
+ "random_forest": {
+  "true_pass": 36,
+  "pred_pass": 31,
+  "accuracy": 0.9904857285928893,
+  "precision": 0.7741935483870968,
+  "recall": 0.6666666666666666,
+  "precision_at_n": 0.75,
+  "psrr_mae": 1.0442158858181885,
+  "pm_mae": 10.19681474482697,
+  "iq_mae": 0.6173949880646427,
+  "train_s": 62
+ },
+ "hist_gradient_boosting": {
+  "true_pass": 36,
+  "pred_pass": 47,
+  "accuracy": 0.9924887330996495,
+  "precision": 0.723404255319149,
+  "recall": 0.9444444444444444,
+  "precision_at_n": 0.7777777777777778,
+  "psrr_mae": 1.1941332334644639,
+  "pm_mae": 7.441080494977788,
+  "iq_mae": 0.4573370280005031,
+  "train_s": 8
+ },
+ "mlp_warm_start_model": {
+  "true_pass": 36,
+  "pred_pass": 36,
+  "accuracy": 0.9939909864797196,
+  "precision": 0.8333333333333334,
+  "recall": 0.8333333333333334,
+  "precision_at_n": 0.8333333333333334,
+  "psrr_mae": 0.5302375817748542,
+  "pm_mae": 0.6850316715372948,
+  "iq_mae": 0.5413482607329463
+ },
+ "note": "same 1997 dataset test rows as surrogate_ws/gf180.pt; regressors trained on raw targets (failed PM/PSRR filled as failing values)"
+}

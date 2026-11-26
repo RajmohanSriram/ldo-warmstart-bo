@@ -1,0 +1,20 @@
+=== [gf180_3.3V_4uF] bo_cold seed 5 (bo seed 5219, batch 14, 3 workers) ===
+[stage 1] 14/250  best=0.7929  screened-passing=0  8s
+[stage 1] 28/250  best=0.7929  screened-passing=0  14s
+[stage 1] 42/250  best=0.7929  screened-passing=0  22s
+[stage 1] 56/250  best=0.7929  screened-passing=0  33s
+[stage 1] 70/250  best=0.7929  screened-passing=0  50s
+[stage 1] 84/250  best=0.7929  screened-passing=0  69s
+[stage 1] 98/250  best=0.7929  screened-passing=0  92s
+[stage 1] 112/250  best=0.7929  screened-passing=0  115s
+[stage 1] 126/250  best=0.7929  screened-passing=0  142s
+[stage 1] 140/250  best=0.7929  screened-passing=0  172s
+[stage 1] 154/250  best=0.7929  screened-passing=0  207s
+[stage 1] 168/250  best=0.7929  screened-passing=0  246s
+[stage 1] 182/250  best=0.7929  screened-passing=0  289s
+[stage 1] 196/250  best=0.7703  screened-passing=0  334s
+[stage 1] 210/250  best=0.7703  screened-passing=0  385s
+[stage 1] 224/250  best=0.7132  screened-passing=0  442s
+[stage 1] 238/250  best=0.7132  screened-passing=0  514s
+[stage 1] 250/250  best=0.6147  screened-passing=0  585s
+done: first pass @None, 0 passing, 585 s

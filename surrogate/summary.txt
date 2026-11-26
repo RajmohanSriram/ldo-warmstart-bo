@@ -1,0 +1,32 @@
+Surrogate results  (64057 designs, VOUT [3.3, 5.0], total 871 s)
+
+== test_near (1628 designs) ==
+spec                      MLP R2     MLP MAE   RF R2      RF MAE
+PSRR @10 kHz               0.998     0.17 dB   0.984     0.43 dB
+Phase margin               0.991     0.43 deg   0.971     1.61 deg
+Quiescent current          0.999     0.37 uA   0.866     3.64 uA
+Load regulation            0.999     0.20 mV   0.991     0.77 mV
+Line regulation            0.999     0.25 mV   0.988     0.75 mV
+VOUT error                 0.999     0.31 mV   0.987     0.67 mV
+Min saturation margin      0.991    11.69 mV   0.752    22.34 mV
+Max device voltage         1.000     0.01 V    0.997     0.02 V
+MLP           pass/fail: accuracy 0.986, precision 0.96, recall 0.95 | true passers 231/1628 (base rate 0.142), precision@231 0.95
+RandomForest  pass/fail: accuracy 0.925, precision 0.80, recall 0.62 | true passers 231/1628 (base rate 0.142), precision@231 0.69
+
+== test_global (1997 designs) ==
+spec                      MLP R2     MLP MAE   RF R2      RF MAE
+PSRR @10 kHz               0.995     0.41 dB   0.954     1.49 dB
+Phase margin               0.976     1.27 deg   0.918     4.59 deg
+Quiescent current          0.999     0.45 uA   0.855     7.54 uA
+Load regulation            0.995    19.72 mV   0.975    34.61 mV
+Line regulation            0.995    15.95 mV   0.972    38.87 mV
+VOUT error                 0.996    23.99 mV   0.972    39.20 mV
+Min saturation margin      0.996    32.48 mV   0.837   140.95 mV
+Max device voltage         0.999     0.01 V    0.962     0.07 V
+MLP           pass/fail: accuracy 0.997, precision 0.97, recall 0.89 | true passers 36/1997 (base rate 0.018), precision@36 0.94
+RandomForest  pass/fail: accuracy 0.983, precision 0.67, recall 0.17 | true passers 36/1997 (base rate 0.018), precision@36 0.33
+
+MLP near-optimum 3.3 V: true passers 10/824, precision 0.78, recall 0.70, precision@10 0.80
+MLP near-optimum 5 V: true passers 221/804, precision 0.96, recall 0.96, precision@221 0.96
+
+Speed: SPICE 4.61 s/design (all corners), MLP 4.0 us/design  ->  1154707x faster

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# simulator scratch and per-run netlists
+scratch/
+*.raw
+
+# uncompressed data sets (the .jsonl.xz copies are what is versioned / released)
+dataset/*.jsonl
+!dataset/README.md
+
+# Windows download markers
+*:Zone.Identifier
+*Zone.Identifier
+
+# local smoke/test output
+runs_rev_smoke/
+runs_test/
+runs_batch_smoke/

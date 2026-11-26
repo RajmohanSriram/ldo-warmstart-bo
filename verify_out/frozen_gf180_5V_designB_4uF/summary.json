@@ -1,0 +1,47 @@
+{
+ "design": "frozen_gf180_5V_designB_4uF",
+ "source": "designs_frozen/frozen_gf180_5V_designB_4uF.json",
+ "pdk": "gf180",
+ "vout": 5.0,
+ "cout_uF": 4.0,
+ "temperature": {
+  "-40.0": {
+   "all_pass": true,
+   "failing": [],
+   "worst_psrr": 46.99378,
+   "worst_pm": 47.43979999999999
+  },
+  "27.0": {
+   "all_pass": true,
+   "failing": [],
+   "worst_psrr": 45.48455,
+   "worst_pm": 50.40199999999999
+  },
+  "125.0": {
+   "all_pass": false,
+   "failing": [
+    "min_sat_mV"
+   ],
+   "worst_psrr": 40.40533,
+   "worst_pm": 56.173199999999994
+  }
+ },
+ "mc": {
+  "samples": 200,
+  "simulated": 200,
+  "passing": 200,
+  "sim_failed": 0,
+  "meas_failed": 0,
+  "mismatch_only": "sw_stat_mismatch=1, sw_stat_global=0, tt 27 C",
+  "yield_pct": 100.0,
+  "lines": [
+   ".param sw_stat_mismatch=1",
+   ".option seed={SEED}"
+  ],
+  "vout_mean": 4.999776555,
+  "vout_sigma_mV": 6.141985230116979,
+  "psrr_mean": 47.65032005,
+  "psrr_sigma": 0.05529611126921585,
+  "fail_counts": {}
+ }
+}
